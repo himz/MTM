@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyTravelMemoirs</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_create_trip">CreateTripActivity</string>
+    <string name="title_activity_trip_info">TripInfoActivity</string>
+    <string name="title_activity_view_old_trips">ViewOldTripsActivity</string>
+    <string name="title_activity_capture">Capture</string>
+    <string name="title_activity_capture_image">CaptureImage</string>
+    <string name="title_activity_list_current_trip">ListCurrentTrip</string>
+    <string name="Delete">Delete</string>
+    <string name="title_activity_single_trip">SingleTrip</string>
+    <string name="title_activity_view_google_maps">ViewGoogleMapsActivity</string>
+    <string name="app_id">485426424849428</string>
+    <string name="title_activity_edit_note">EditNote</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Title</string>
+    <string name="body">Body</string>
+    <string name="confirm">Save</string>
+    <string name="title_activity_list_notes">ListNotes</string>
+    <string name="title_activity_view_note">ViewNoteActivity</string>
+
+</resources>

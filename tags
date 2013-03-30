@@ -1,0 +1,646 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AppBaseTheme	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int AppBaseTheme=0x7f080002;$/;"	f	class:R.style
+AppTheme	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int AppTheme=0x7f080003;$/;"	f	class:R.style
+BuildConfig	gen/com/mpcs/mytravelmemoirs/BuildConfig.java	/^public final class BuildConfig {$/;"	c
+Button01	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int Button01=0x7f040017;$/;"	f	class:R.id
+CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE	src/com/mpcs/mytravelmemoirs/CaptureImage.java	/^	private static final int CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE = 100;$/;"	f	class:CaptureImage	file:
+CAPTURE_VIDEO_ACTIVITY_REQUEST_CODE	src/com/mpcs/mytravelmemoirs/CaptureImage.java	/^	private static final int CAPTURE_VIDEO_ACTIVITY_REQUEST_CODE = 200;$/;"	f	class:CaptureImage	file:
+CaptureImage	src/com/mpcs/mytravelmemoirs/CaptureImage.java	/^public class CaptureImage extends Activity {$/;"	c
+CreateTripActivity	src/com/mpcs/mytravelmemoirs/CreateTripActivity.java	/^public class CreateTripActivity extends Activity {$/;"	c
+DATABASE_NAME	src/com/mpcs/mytravelmemoirs/DbHelper.java	/^    private static final String DATABASE_NAME = "TripIt";$/;"	f	class:DbHelper	file:
+DATABASE_NAME	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	private static final String DATABASE_NAME = "TripIt";$/;"	f	class:TripDbAdapter	file:
+DATABASE_TABLE1	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	private static final String DATABASE_TABLE1 = "Trips";$/;"	f	class:TripDbAdapter	file:
+DATABASE_TABLE2	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	private static final String DATABASE_TABLE2 = "TripDetails";$/;"	f	class:TripDbAdapter	file:
+DATABASE_TABLE3	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	private static final String DATABASE_TABLE3 = "Location";$/;"	f	class:TripDbAdapter	file:
+DATABASE_TABLE4	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	private static final String DATABASE_TABLE4 = "Photos";$/;"	f	class:TripDbAdapter	file:
+DATABASE_VERSION	src/com/mpcs/mytravelmemoirs/DbHelper.java	/^    private static final int DATABASE_VERSION = 2;$/;"	f	class:DbHelper	file:
+DATABASE_VERSION	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	private static final int DATABASE_VERSION = 2;$/;"	f	class:TripDbAdapter	file:
+DEBUG	gen/com/mpcs/mytravelmemoirs/BuildConfig.java	/^    public final static boolean DEBUG = true;$/;"	f	class:BuildConfig
+DatabaseHelper	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^		DatabaseHelper(Context context) {$/;"	m	class:TripDbAdapter.DatabaseHelper
+DatabaseHelper	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	private static class DatabaseHelper extends SQLiteOpenHelper {$/;"	c	class:TripDbAdapter
+DbHelper	src/com/mpcs/mytravelmemoirs/DbHelper.java	/^	public DbHelper(Context context, String name, CursorFactory factory,$/;"	m	class:DbHelper
+DbHelper	src/com/mpcs/mytravelmemoirs/DbHelper.java	/^public class DbHelper extends SQLiteOpenHelper	{$/;"	c
+Delete	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int Delete=0x7f050022;$/;"	f	class:R.string
+EditText01	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int EditText01=0x7f04001c;$/;"	f	class:R.id
+EditText02	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int EditText02=0x7f04001b;$/;"	f	class:R.id
+GPS	src/com/mpcs/mytravelmemoirs/GPS.java	/^    public GPS(Context context) {$/;"	m	class:GPS
+GPS	src/com/mpcs/mytravelmemoirs/GPS.java	/^public class GPS extends Service implements LocationListener {$/;"	c
+GPSActivity	src/com/mpcs/mytravelmemoirs/GPSActivity.java	/^public class GPSActivity extends Activity {$/;"	c
+Help	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int Help=0x7f04000d;$/;"	f	class:R.id
+HelpActivity	src/com/mpcs/mytravelmemoirs/HelpActivity.java	/^public class HelpActivity extends Activity {$/;"	c
+ListCurrentTrip	src/com/mpcs/mytravelmemoirs/ListCurrentTrip.java	/^public class ListCurrentTrip extends ListActivity {$/;"	c
+MEDIA_TYPE_IMAGE	src/com/mpcs/mytravelmemoirs/CaptureImage.java	/^	public static final int MEDIA_TYPE_IMAGE = 1;$/;"	f	class:CaptureImage
+MEDIA_TYPE_VIDEO	src/com/mpcs/mytravelmemoirs/CaptureImage.java	/^	public static final int MEDIA_TYPE_VIDEO = 2;$/;"	f	class:CaptureImage
+MIN_DISTANCE_CHANGE_FOR_UPDATES	src/com/mpcs/mytravelmemoirs/GPS.java	/^    private static final long MIN_DISTANCE_CHANGE_FOR_UPDATES = 10; \/\/ 10 meters$/;"	f	class:GPS	file:
+MIN_TIME_BW_UPDATES	src/com/mpcs/mytravelmemoirs/GPS.java	/^    private static final long MIN_TIME_BW_UPDATES = 1000 * 60 * 1; \/\/ 1 minute$/;"	f	class:GPS	file:
+MainActivity	src/com/mpcs/mytravelmemoirs/MainActivity.java	/^public class MainActivity extends Activity {$/;"	c
+MapsOverlay	src/com/mpcs/mytravelmemoirs/ViewGoogleMapsActivity.java	/^		public MapsOverlay(Drawable defaultMarker, Context context) {$/;"	m	class:ViewGoogleMapsActivity.MapsOverlay
+MapsOverlay	src/com/mpcs/mytravelmemoirs/ViewGoogleMapsActivity.java	/^	class MapsOverlay  extends ItemizedOverlay$/;"	c	class:ViewGoogleMapsActivity
+MyAdapter	src/com/mpcs/mytravelmemoirs/ListCurrentTrip.java	/^			public MyAdapter(Context context, int layout, Cursor c, String[] from,$/;"	m	class:ListCurrentTrip.MyAdapter
+MyAdapter	src/com/mpcs/mytravelmemoirs/ListCurrentTrip.java	/^		public class MyAdapter extends SimpleCursorAdapter{$/;"	c	class:ListCurrentTrip
+MyAdapter	src/com/mpcs/mytravelmemoirs/ViewCityPhotosActivity.java	/^    public MyAdapter(Context context, int layout, Cursor c, String[] from,$/;"	m	class:ViewCityPhotosActivity.MyAdapter
+MyAdapter	src/com/mpcs/mytravelmemoirs/ViewCityPhotosActivity.java	/^public class MyAdapter extends SimpleCursorAdapter{$/;"	c	class:ViewCityPhotosActivity
+MyOverlay	src/com/mpcs/mytravelmemoirs/MyOverlay.java	/^    public MyOverlay(Projection projection, List<GeoPoint> geoPointsArray, MapView mapView) {$/;"	m	class:MyOverlay
+MyOverlay	src/com/mpcs/mytravelmemoirs/MyOverlay.java	/^class MyOverlay extends Overlay{$/;"	c
+MyRunnable	src/com/mpcs/mytravelmemoirs/SingleTripActivity.java	/^	MyRunnable( List<String> fileNames){$/;"	m	class:MyRunnable
+MyRunnable	src/com/mpcs/mytravelmemoirs/SingleTripActivity.java	/^class MyRunnable implements Runnable{      $/;"	c
+NewTripActivity	src/com/mpcs/mytravelmemoirs/NewTripActivity.java	/^public class NewTripActivity extends Activity {$/;"	c
+NumPhotos	src/com/mpcs/mytravelmemoirs/MainActivity.java	/^	public static int NumPhotos = 0;$/;"	f	class:MainActivity
+R	gen/com/facebook/android/R.java	/^public final class R {$/;"	c
+R	gen/com/mpcs/mytravelmemoirs/R.java	/^public final class R {$/;"	c
+SingleTripActivity	src/com/mpcs/mytravelmemoirs/SingleTripActivity.java	/^public class SingleTripActivity extends Activity {$/;"	c
+StartActivity	src/com/mpcs/mytravelmemoirs/StartActivity.java	/^public class StartActivity extends Activity {$/;"	c
+TAG	src/com/mpcs/mytravelmemoirs/DbHelper.java	/^    private static final String TAG = "DBHelper";$/;"	f	class:DbHelper	file:
+TAG	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	private static final String TAG = "DBHelper";$/;"	f	class:TripDbAdapter	file:
+ToDo	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int ToDo=0x7f04000c;$/;"	f	class:R.id
+TripDbAdapter	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	public TripDbAdapter(Context ctx) {$/;"	m	class:TripDbAdapter
+TripDbAdapter	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^public class TripDbAdapter {$/;"	c
+TripInfoActivity	src/com/mpcs/mytravelmemoirs/TripInfoActivity.java	/^public class TripInfoActivity extends Activity {$/;"	c
+ViewCityPhotosActivity	src/com/mpcs/mytravelmemoirs/ViewCityPhotosActivity.java	/^public class ViewCityPhotosActivity extends ListActivity {$/;"	c
+ViewGoogleMapsActivity	src/com/mpcs/mytravelmemoirs/ViewGoogleMapsActivity.java	/^public class ViewGoogleMapsActivity extends MapActivity$/;"	c
+ViewOldTripsActivity	src/com/mpcs/mytravelmemoirs/ViewOldTripsActivity.java	/^public class ViewOldTripsActivity extends ListActivity {$/;"	c
+activity_capture	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int activity_capture=0x7f030000;$/;"	f	class:R.layout
+activity_capture	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int activity_capture=0x7f090000;$/;"	f	class:R.menu
+activity_capture_image	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int activity_capture_image=0x7f030001;$/;"	f	class:R.layout
+activity_capture_image	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int activity_capture_image=0x7f090001;$/;"	f	class:R.menu
+activity_city_photos	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int activity_city_photos=0x7f030002;$/;"	f	class:R.layout
+activity_create_trip	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int activity_create_trip=0x7f030003;$/;"	f	class:R.layout
+activity_create_trip	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int activity_create_trip=0x7f090002;$/;"	f	class:R.menu
+activity_help	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int activity_help=0x7f030004;$/;"	f	class:R.layout
+activity_list_current_trip	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int activity_list_current_trip=0x7f030005;$/;"	f	class:R.layout
+activity_list_current_trip	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int activity_list_current_trip=0x7f090003;$/;"	f	class:R.menu
+activity_main	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int activity_main=0x7f030006;$/;"	f	class:R.layout
+activity_main	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int activity_main=0x7f090004;$/;"	f	class:R.menu
+activity_maps	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int activity_maps=0x7f030007;$/;"	f	class:R.layout
+activity_single_trip	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int activity_single_trip=0x7f030008;$/;"	f	class:R.layout
+activity_single_trip	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int activity_single_trip=0x7f090005;$/;"	f	class:R.menu
+activity_start	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int activity_start=0x7f030009;$/;"	f	class:R.layout
+activity_trip_info	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int activity_trip_info=0x7f03000a;$/;"	f	class:R.layout
+activity_trip_info	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int activity_trip_info=0x7f090006;$/;"	f	class:R.menu
+activity_view_google_maps	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int activity_view_google_maps=0x7f03000b;$/;"	f	class:R.layout
+activity_view_google_maps	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int activity_view_google_maps=0x7f090007;$/;"	f	class:R.menu
+activity_view_old_trips	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int activity_view_old_trips=0x7f03000c;$/;"	f	class:R.layout
+addLocation	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	public long addLocation(int trip_id , String city , double lat, double lon, boolean start , boolean end, boolean inter)$/;"	m	class:TripDbAdapter
+addOverlay	src/com/mpcs/mytravelmemoirs/ViewGoogleMapsActivity.java	/^		public void addOverlay(OverlayItem overlay) {$/;"	m	class:ViewGoogleMapsActivity.MapsOverlay
+addOverlayItem	src/com/mpcs/mytravelmemoirs/ViewGoogleMapsActivity.java	/^		public void addOverlayItem(OverlayItem overlayItem) {$/;"	m	class:ViewGoogleMapsActivity.MapsOverlay
+addOverlayItem	src/com/mpcs/mytravelmemoirs/ViewGoogleMapsActivity.java	/^		public void addOverlayItem(OverlayItem overlayItem, Drawable altMarker) {$/;"	m	class:ViewGoogleMapsActivity.MapsOverlay
+addOverlayItem	src/com/mpcs/mytravelmemoirs/ViewGoogleMapsActivity.java	/^		public void addOverlayItem(int lat, int lon, String title, String NumPhotos, Drawable altMarker) {$/;"	m	class:ViewGoogleMapsActivity.MapsOverlay
+appRoot	src/com/mpcs/mytravelmemoirs/CaptureImage.java	/^	private String appRoot;$/;"	f	class:CaptureImage	file:
+appRoot	src/com/mpcs/mytravelmemoirs/MainActivity.java	/^	private String appRoot;$/;"	f	class:MainActivity	file:
+app_id	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int app_id=0x7f050025;$/;"	f	class:R.string
+app_name	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int app_name=0x7f050019;$/;"	f	class:R.string
+attr	gen/com/facebook/android/R.java	/^	public static final class attr {$/;"	c	class:R
+attr	gen/com/mpcs/mytravelmemoirs/R.java	/^    public static final class attr {$/;"	c	class:R
+btnContinue	src/com/mpcs/mytravelmemoirs/StartActivity.java	/^	Button btnContinue; $/;"	f	class:StartActivity
+btnCurrentTrip	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int btnCurrentTrip=0x7f040006;$/;"	f	class:R.id
+btnEndTrip	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int btnEndTrip=0x7f040007;$/;"	f	class:R.id
+btnGPSLoc	src/com/mpcs/mytravelmemoirs/GPSActivity.java	/^	Button btnGPSLoc;$/;"	f	class:GPSActivity
+btnNewTrip	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int btnNewTrip=0x7f04000b;$/;"	f	class:R.id
+btnNtwrkLoc	src/com/mpcs/mytravelmemoirs/GPSActivity.java	/^	Button btnNtwrkLoc;$/;"	f	class:GPSActivity
+btnOldTrips	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int btnOldTrips=0x7f04000a;$/;"	f	class:R.id
+button1	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int button1=0x7f040011;$/;"	f	class:R.id
+button2	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int button2=0x7f040005;$/;"	f	class:R.id
+button3	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int button3=0x7f040010;$/;"	f	class:R.id
+callback	src/com/mpcs/mytravelmemoirs/StartActivity.java	/^	  private Session.StatusCallback callback = new Session.StatusCallback() {$/;"	f	class:StartActivity	file:
+canGetGPSLocation	src/com/mpcs/mytravelmemoirs/GPS.java	/^    boolean canGetGPSLocation = false;$/;"	f	class:GPS
+canGetGPSLocation	src/com/mpcs/mytravelmemoirs/GPS.java	/^    public boolean canGetGPSLocation() {$/;"	m	class:GPS
+canGetNtwrkLocation	src/com/mpcs/mytravelmemoirs/GPS.java	/^    boolean canGetNtwrkLocation = false;$/;"	f	class:GPS
+canGetNtwrkLocation	src/com/mpcs/mytravelmemoirs/GPS.java	/^    public boolean canGetNtwrkLocation() {$/;"	m	class:GPS
+captureImage	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int captureImage=0x7f040004;$/;"	f	class:R.id
+checkTrip	src/com/mpcs/mytravelmemoirs/MainActivity.java	/^	public static  boolean checkTrip = true;$/;"	f	class:MainActivity
+cityName	src/com/mpcs/mytravelmemoirs/CaptureImage.java	/^	static String cityName = new String();$/;"	f	class:CaptureImage
+close	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	public void close() {$/;"	m	class:TripDbAdapter
+color	gen/com/facebook/android/R.java	/^	public static final class color {$/;"	c	class:R
+color	gen/com/mpcs/mytravelmemoirs/R.java	/^    public static final class color {$/;"	c	class:R
+com.facebook.android	gen/com/facebook/android/R.java	/^package com.facebook.android;$/;"	p
+com.mpcs.mytravelmemoirs	gen/com/mpcs/mytravelmemoirs/BuildConfig.java	/^package com.mpcs.mytravelmemoirs;$/;"	p
+com.mpcs.mytravelmemoirs	gen/com/mpcs/mytravelmemoirs/R.java	/^package com.mpcs.mytravelmemoirs;$/;"	p
+com.mpcs.mytravelmemoirs	src/com/mpcs/mytravelmemoirs/CaptureImage.java	/^package com.mpcs.mytravelmemoirs;$/;"	p
+com.mpcs.mytravelmemoirs	src/com/mpcs/mytravelmemoirs/CreateTripActivity.java	/^package com.mpcs.mytravelmemoirs;$/;"	p
+com.mpcs.mytravelmemoirs	src/com/mpcs/mytravelmemoirs/DbHelper.java	/^package com.mpcs.mytravelmemoirs;$/;"	p
+com.mpcs.mytravelmemoirs	src/com/mpcs/mytravelmemoirs/GPS.java	/^package com.mpcs.mytravelmemoirs;$/;"	p
+com.mpcs.mytravelmemoirs	src/com/mpcs/mytravelmemoirs/GPSActivity.java	/^package com.mpcs.mytravelmemoirs;$/;"	p
+com.mpcs.mytravelmemoirs	src/com/mpcs/mytravelmemoirs/HelpActivity.java	/^package com.mpcs.mytravelmemoirs;$/;"	p
+com.mpcs.mytravelmemoirs	src/com/mpcs/mytravelmemoirs/ListCurrentTrip.java	/^package com.mpcs.mytravelmemoirs;$/;"	p
+com.mpcs.mytravelmemoirs	src/com/mpcs/mytravelmemoirs/MainActivity.java	/^package com.mpcs.mytravelmemoirs;$/;"	p
+com.mpcs.mytravelmemoirs	src/com/mpcs/mytravelmemoirs/MyOverlay.java	/^package com.mpcs.mytravelmemoirs;$/;"	p
+com.mpcs.mytravelmemoirs	src/com/mpcs/mytravelmemoirs/NewTripActivity.java	/^package com.mpcs.mytravelmemoirs;$/;"	p
+com.mpcs.mytravelmemoirs	src/com/mpcs/mytravelmemoirs/SingleTripActivity.java	/^package com.mpcs.mytravelmemoirs;$/;"	p
+com.mpcs.mytravelmemoirs	src/com/mpcs/mytravelmemoirs/StartActivity.java	/^package com.mpcs.mytravelmemoirs;$/;"	p
+com.mpcs.mytravelmemoirs	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^package com.mpcs.mytravelmemoirs;$/;"	p
+com.mpcs.mytravelmemoirs	src/com/mpcs/mytravelmemoirs/TripInfoActivity.java	/^package com.mpcs.mytravelmemoirs;$/;"	p
+com.mpcs.mytravelmemoirs	src/com/mpcs/mytravelmemoirs/ViewCityPhotosActivity.java	/^package com.mpcs.mytravelmemoirs;$/;"	p
+com.mpcs.mytravelmemoirs	src/com/mpcs/mytravelmemoirs/ViewGoogleMapsActivity.java	/^package com.mpcs.mytravelmemoirs;$/;"	p
+com.mpcs.mytravelmemoirs	src/com/mpcs/mytravelmemoirs/ViewOldTripsActivity.java	/^package com.mpcs.mytravelmemoirs;$/;"	p
+com_facebook_blue	gen/com/facebook/android/R.java	/^		public static final int com_facebook_blue = 0x7f060000;$/;"	f	class:R.color
+com_facebook_blue	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_blue=0x7f060000;$/;"	f	class:R.color
+com_facebook_button_check	gen/com/facebook/android/R.java	/^		public static final int com_facebook_button_check = 0x7f020000;$/;"	f	class:R.drawable
+com_facebook_button_check	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_button_check=0x7f020000;$/;"	f	class:R.drawable
+com_facebook_button_check_off	gen/com/facebook/android/R.java	/^		public static final int com_facebook_button_check_off = 0x7f020001;$/;"	f	class:R.drawable
+com_facebook_button_check_off	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_button_check_off=0x7f020001;$/;"	f	class:R.drawable
+com_facebook_button_check_on	gen/com/facebook/android/R.java	/^		public static final int com_facebook_button_check_on = 0x7f020002;$/;"	f	class:R.drawable
+com_facebook_button_check_on	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_button_check_on=0x7f020002;$/;"	f	class:R.drawable
+com_facebook_button_grey_focused	gen/com/facebook/android/R.java	/^		public static final int com_facebook_button_grey_focused = 0x7f020003;$/;"	f	class:R.drawable
+com_facebook_button_grey_focused	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_button_grey_focused=0x7f020003;$/;"	f	class:R.drawable
+com_facebook_button_grey_normal	gen/com/facebook/android/R.java	/^		public static final int com_facebook_button_grey_normal = 0x7f020004;$/;"	f	class:R.drawable
+com_facebook_button_grey_normal	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_button_grey_normal=0x7f020004;$/;"	f	class:R.drawable
+com_facebook_button_grey_pressed	gen/com/facebook/android/R.java	/^		public static final int com_facebook_button_grey_pressed = 0x7f020005;$/;"	f	class:R.drawable
+com_facebook_button_grey_pressed	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_button_grey_pressed=0x7f020005;$/;"	f	class:R.drawable
+com_facebook_choose_friends	gen/com/facebook/android/R.java	/^		public static final int com_facebook_choose_friends = 0x7f05000f;$/;"	f	class:R.string
+com_facebook_choose_friends	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_choose_friends=0x7f05000f;$/;"	f	class:R.string
+com_facebook_close	gen/com/facebook/android/R.java	/^		public static final int com_facebook_close = 0x7f020006;$/;"	f	class:R.drawable
+com_facebook_close	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_close=0x7f020006;$/;"	f	class:R.drawable
+com_facebook_dialogloginactivity_ok_button	gen/com/facebook/android/R.java	/^		public static final int com_facebook_dialogloginactivity_ok_button = 0x7f050000;$/;"	f	class:R.string
+com_facebook_dialogloginactivity_ok_button	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_dialogloginactivity_ok_button=0x7f050000;$/;"	f	class:R.string
+com_facebook_friend_picker_fragment	gen/com/facebook/android/R.java	/^		public static final int[] com_facebook_friend_picker_fragment = { 0x7f010007 };$/;"	f	class:R.styleable
+com_facebook_friend_picker_fragment	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int[] com_facebook_friend_picker_fragment = {$/;"	f	class:R.styleable
+com_facebook_friend_picker_fragment_multi_select	gen/com/facebook/android/R.java	/^		public static final int com_facebook_friend_picker_fragment_multi_select = 0;$/;"	f	class:R.styleable
+com_facebook_friend_picker_fragment_multi_select	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_friend_picker_fragment_multi_select = 0;$/;"	f	class:R.styleable
+com_facebook_friendpickerfragment	gen/com/facebook/android/R.java	/^		public static final int com_facebook_friendpickerfragment = 0x7f03000d;$/;"	f	class:R.layout
+com_facebook_friendpickerfragment	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_friendpickerfragment=0x7f03000d;$/;"	f	class:R.layout
+com_facebook_icon	gen/com/facebook/android/R.java	/^		public static final int com_facebook_icon = 0x7f020007;$/;"	f	class:R.drawable
+com_facebook_icon	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_icon=0x7f020007;$/;"	f	class:R.drawable
+com_facebook_internet_permission_error_message	gen/com/facebook/android/R.java	/^		public static final int com_facebook_internet_permission_error_message = 0x7f050013;$/;"	f	class:R.string
+com_facebook_internet_permission_error_message	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_internet_permission_error_message=0x7f050013;$/;"	f	class:R.string
+com_facebook_internet_permission_error_title	gen/com/facebook/android/R.java	/^		public static final int com_facebook_internet_permission_error_title = 0x7f050012;$/;"	f	class:R.string
+com_facebook_internet_permission_error_title	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_internet_permission_error_title=0x7f050012;$/;"	f	class:R.string
+com_facebook_list_divider	gen/com/facebook/android/R.java	/^		public static final int com_facebook_list_divider = 0x7f020008;$/;"	f	class:R.drawable
+com_facebook_list_divider	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_list_divider=0x7f020008;$/;"	f	class:R.drawable
+com_facebook_list_section_header_background	gen/com/facebook/android/R.java	/^		public static final int com_facebook_list_section_header_background = 0x7f020009;$/;"	f	class:R.drawable
+com_facebook_list_section_header_background	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_list_section_header_background=0x7f020009;$/;"	f	class:R.drawable
+com_facebook_loading	gen/com/facebook/android/R.java	/^		public static final int com_facebook_loading = 0x7f050011;$/;"	f	class:R.string
+com_facebook_loading	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_loading=0x7f050011;$/;"	f	class:R.string
+com_facebook_login_activity_layout	gen/com/facebook/android/R.java	/^		public static final int com_facebook_login_activity_layout = 0x7f03000e;$/;"	f	class:R.layout
+com_facebook_login_activity_layout	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_login_activity_layout=0x7f03000e;$/;"	f	class:R.layout
+com_facebook_login_activity_progress_bar	gen/com/facebook/android/R.java	/^		public static final int com_facebook_login_activity_progress_bar = 0x7f040020;$/;"	f	class:R.id
+com_facebook_login_activity_progress_bar	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_login_activity_progress_bar=0x7f040020;$/;"	f	class:R.id
+com_facebook_login_view	gen/com/facebook/android/R.java	/^		public static final int[] com_facebook_login_view = { 0x7f01000c, 0x7f01000d, 0x7f01000e, 0x7f01000f };$/;"	f	class:R.styleable
+com_facebook_login_view	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int[] com_facebook_login_view = {$/;"	f	class:R.styleable
+com_facebook_login_view_confirm_logout	gen/com/facebook/android/R.java	/^		public static final int com_facebook_login_view_confirm_logout = 0;$/;"	f	class:R.styleable
+com_facebook_login_view_confirm_logout	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_login_view_confirm_logout = 0;$/;"	f	class:R.styleable
+com_facebook_login_view_fetch_user_info	gen/com/facebook/android/R.java	/^		public static final int com_facebook_login_view_fetch_user_info = 1;$/;"	f	class:R.styleable
+com_facebook_login_view_fetch_user_info	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_login_view_fetch_user_info = 1;$/;"	f	class:R.styleable
+com_facebook_login_view_login_text	gen/com/facebook/android/R.java	/^		public static final int com_facebook_login_view_login_text = 2;$/;"	f	class:R.styleable
+com_facebook_login_view_login_text	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_login_view_login_text = 2;$/;"	f	class:R.styleable
+com_facebook_login_view_logout_text	gen/com/facebook/android/R.java	/^		public static final int com_facebook_login_view_logout_text = 3;$/;"	f	class:R.styleable
+com_facebook_login_view_logout_text	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_login_view_logout_text = 3;$/;"	f	class:R.styleable
+com_facebook_loginbutton_blue	gen/com/facebook/android/R.java	/^		public static final int com_facebook_loginbutton_blue = 0x7f02000a;$/;"	f	class:R.drawable
+com_facebook_loginbutton_blue	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_loginbutton_blue=0x7f02000a;$/;"	f	class:R.drawable
+com_facebook_loginbutton_blue_focused	gen/com/facebook/android/R.java	/^		public static final int com_facebook_loginbutton_blue_focused = 0x7f02000b;$/;"	f	class:R.drawable
+com_facebook_loginbutton_blue_focused	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_loginbutton_blue_focused=0x7f02000b;$/;"	f	class:R.drawable
+com_facebook_loginbutton_blue_normal	gen/com/facebook/android/R.java	/^		public static final int com_facebook_loginbutton_blue_normal = 0x7f02000c;$/;"	f	class:R.drawable
+com_facebook_loginbutton_blue_normal	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_loginbutton_blue_normal=0x7f02000c;$/;"	f	class:R.drawable
+com_facebook_loginbutton_blue_pressed	gen/com/facebook/android/R.java	/^		public static final int com_facebook_loginbutton_blue_pressed = 0x7f02000d;$/;"	f	class:R.drawable
+com_facebook_loginbutton_blue_pressed	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_loginbutton_blue_pressed=0x7f02000d;$/;"	f	class:R.drawable
+com_facebook_loginbutton_silver	gen/com/facebook/android/R.java	/^		public static final int com_facebook_loginbutton_silver = 0x7f02000e;$/;"	f	class:R.drawable
+com_facebook_loginbutton_silver	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_loginbutton_silver=0x7f02000e;$/;"	f	class:R.drawable
+com_facebook_loginview_cancel_action	gen/com/facebook/android/R.java	/^		public static final int com_facebook_loginview_cancel_action = 0x7f050006;$/;"	f	class:R.string
+com_facebook_loginview_cancel_action	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_loginview_cancel_action=0x7f050006;$/;"	f	class:R.string
+com_facebook_loginview_default_style	gen/com/facebook/android/R.java	/^		public static final int com_facebook_loginview_default_style = 0x7f080000;$/;"	f	class:R.style
+com_facebook_loginview_default_style	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_loginview_default_style=0x7f080000;$/;"	f	class:R.style
+com_facebook_loginview_height	gen/com/facebook/android/R.java	/^		public static final int com_facebook_loginview_height = 0x7f070007;$/;"	f	class:R.dimen
+com_facebook_loginview_height	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_loginview_height=0x7f070007;$/;"	f	class:R.dimen
+com_facebook_loginview_log_in_button	gen/com/facebook/android/R.java	/^		public static final int com_facebook_loginview_log_in_button = 0x7f050002;$/;"	f	class:R.string
+com_facebook_loginview_log_in_button	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_loginview_log_in_button=0x7f050002;$/;"	f	class:R.string
+com_facebook_loginview_log_out_action	gen/com/facebook/android/R.java	/^		public static final int com_facebook_loginview_log_out_action = 0x7f050005;$/;"	f	class:R.string
+com_facebook_loginview_log_out_action	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_loginview_log_out_action=0x7f050005;$/;"	f	class:R.string
+com_facebook_loginview_log_out_button	gen/com/facebook/android/R.java	/^		public static final int com_facebook_loginview_log_out_button = 0x7f050001;$/;"	f	class:R.string
+com_facebook_loginview_log_out_button	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_loginview_log_out_button=0x7f050001;$/;"	f	class:R.string
+com_facebook_loginview_logged_in_as	gen/com/facebook/android/R.java	/^		public static final int com_facebook_loginview_logged_in_as = 0x7f050003;$/;"	f	class:R.string
+com_facebook_loginview_logged_in_as	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_loginview_logged_in_as=0x7f050003;$/;"	f	class:R.string
+com_facebook_loginview_logged_in_using_facebook	gen/com/facebook/android/R.java	/^		public static final int com_facebook_loginview_logged_in_using_facebook = 0x7f050004;$/;"	f	class:R.string
+com_facebook_loginview_logged_in_using_facebook	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_loginview_logged_in_using_facebook=0x7f050004;$/;"	f	class:R.string
+com_facebook_loginview_padding_bottom	gen/com/facebook/android/R.java	/^		public static final int com_facebook_loginview_padding_bottom = 0x7f070005;$/;"	f	class:R.dimen
+com_facebook_loginview_padding_bottom	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_loginview_padding_bottom=0x7f070005;$/;"	f	class:R.dimen
+com_facebook_loginview_padding_left	gen/com/facebook/android/R.java	/^		public static final int com_facebook_loginview_padding_left = 0x7f070002;$/;"	f	class:R.dimen
+com_facebook_loginview_padding_left	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_loginview_padding_left=0x7f070002;$/;"	f	class:R.dimen
+com_facebook_loginview_padding_right	gen/com/facebook/android/R.java	/^		public static final int com_facebook_loginview_padding_right = 0x7f070003;$/;"	f	class:R.dimen
+com_facebook_loginview_padding_right	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_loginview_padding_right=0x7f070003;$/;"	f	class:R.dimen
+com_facebook_loginview_padding_top	gen/com/facebook/android/R.java	/^		public static final int com_facebook_loginview_padding_top = 0x7f070004;$/;"	f	class:R.dimen
+com_facebook_loginview_padding_top	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_loginview_padding_top=0x7f070004;$/;"	f	class:R.dimen
+com_facebook_loginview_silver_style	gen/com/facebook/android/R.java	/^		public static final int com_facebook_loginview_silver_style = 0x7f080001;$/;"	f	class:R.style
+com_facebook_loginview_silver_style	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_loginview_silver_style=0x7f080001;$/;"	f	class:R.style
+com_facebook_loginview_text_color	gen/com/facebook/android/R.java	/^		public static final int com_facebook_loginview_text_color = 0x7f060004;$/;"	f	class:R.color
+com_facebook_loginview_text_color	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_loginview_text_color=0x7f060004;$/;"	f	class:R.color
+com_facebook_loginview_text_size	gen/com/facebook/android/R.java	/^		public static final int com_facebook_loginview_text_size = 0x7f070008;$/;"	f	class:R.dimen
+com_facebook_loginview_text_size	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_loginview_text_size=0x7f070008;$/;"	f	class:R.dimen
+com_facebook_loginview_width	gen/com/facebook/android/R.java	/^		public static final int com_facebook_loginview_width = 0x7f070006;$/;"	f	class:R.dimen
+com_facebook_loginview_width	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_loginview_width=0x7f070006;$/;"	f	class:R.dimen
+com_facebook_logo	gen/com/facebook/android/R.java	/^		public static final int com_facebook_logo = 0x7f02000f;$/;"	f	class:R.drawable
+com_facebook_logo	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_logo=0x7f02000f;$/;"	f	class:R.drawable
+com_facebook_logo_content_description	gen/com/facebook/android/R.java	/^		public static final int com_facebook_logo_content_description = 0x7f050007;$/;"	f	class:R.string
+com_facebook_logo_content_description	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_logo_content_description=0x7f050007;$/;"	f	class:R.string
+com_facebook_nearby	gen/com/facebook/android/R.java	/^		public static final int com_facebook_nearby = 0x7f050010;$/;"	f	class:R.string
+com_facebook_nearby	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_nearby=0x7f050010;$/;"	f	class:R.string
+com_facebook_picker_activity_circle	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_activity_circle = 0x7f04001f;$/;"	f	class:R.id
+com_facebook_picker_activity_circle	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_activity_circle=0x7f04001f;$/;"	f	class:R.id
+com_facebook_picker_activity_circle_row	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_activity_circle_row = 0x7f03000f;$/;"	f	class:R.layout
+com_facebook_picker_activity_circle_row	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_activity_circle_row=0x7f03000f;$/;"	f	class:R.layout
+com_facebook_picker_checkbox	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_checkbox = 0x7f030010;$/;"	f	class:R.layout
+com_facebook_picker_checkbox	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_checkbox = 0x7f040022;$/;"	f	class:R.id
+com_facebook_picker_checkbox	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_checkbox=0x7f030010;$/;"	f	class:R.layout
+com_facebook_picker_checkbox	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_checkbox=0x7f040022;$/;"	f	class:R.id
+com_facebook_picker_checkbox_stub	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_checkbox_stub = 0x7f040026;$/;"	f	class:R.id
+com_facebook_picker_checkbox_stub	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_checkbox_stub=0x7f040026;$/;"	f	class:R.id
+com_facebook_picker_divider	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_divider = 0x7f04002a;$/;"	f	class:R.id
+com_facebook_picker_divider	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_divider=0x7f04002a;$/;"	f	class:R.id
+com_facebook_picker_done_button	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_done_button = 0x7f040029;$/;"	f	class:R.id
+com_facebook_picker_done_button	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_done_button=0x7f040029;$/;"	f	class:R.id
+com_facebook_picker_done_button_text	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_done_button_text = 0x7f05000e;$/;"	f	class:R.string
+com_facebook_picker_done_button_text	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_done_button_text=0x7f05000e;$/;"	f	class:R.string
+com_facebook_picker_fragment	gen/com/facebook/android/R.java	/^		public static final int[] com_facebook_picker_fragment = { 0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003, 0x7f010004, 0x7f010005, 0x7f010006 };$/;"	f	class:R.styleable
+com_facebook_picker_fragment	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int[] com_facebook_picker_fragment = {$/;"	f	class:R.styleable
+com_facebook_picker_fragment_done_button_background	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_fragment_done_button_background = 6;$/;"	f	class:R.styleable
+com_facebook_picker_fragment_done_button_background	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_fragment_done_button_background = 6;$/;"	f	class:R.styleable
+com_facebook_picker_fragment_done_button_text	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_fragment_done_button_text = 4;$/;"	f	class:R.styleable
+com_facebook_picker_fragment_done_button_text	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_fragment_done_button_text = 4;$/;"	f	class:R.styleable
+com_facebook_picker_fragment_extra_fields	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_fragment_extra_fields = 1;$/;"	f	class:R.styleable
+com_facebook_picker_fragment_extra_fields	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_fragment_extra_fields = 1;$/;"	f	class:R.styleable
+com_facebook_picker_fragment_show_pictures	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_fragment_show_pictures = 0;$/;"	f	class:R.styleable
+com_facebook_picker_fragment_show_pictures	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_fragment_show_pictures = 0;$/;"	f	class:R.styleable
+com_facebook_picker_fragment_show_title_bar	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_fragment_show_title_bar = 2;$/;"	f	class:R.styleable
+com_facebook_picker_fragment_show_title_bar	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_fragment_show_title_bar = 2;$/;"	f	class:R.styleable
+com_facebook_picker_fragment_title_bar_background	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_fragment_title_bar_background = 5;$/;"	f	class:R.styleable
+com_facebook_picker_fragment_title_bar_background	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_fragment_title_bar_background = 5;$/;"	f	class:R.styleable
+com_facebook_picker_fragment_title_text	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_fragment_title_text = 3;$/;"	f	class:R.styleable
+com_facebook_picker_fragment_title_text	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_fragment_title_text = 3;$/;"	f	class:R.styleable
+com_facebook_picker_image	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_image = 0x7f030011;$/;"	f	class:R.layout
+com_facebook_picker_image	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_image = 0x7f040023;$/;"	f	class:R.id
+com_facebook_picker_image	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_image=0x7f030011;$/;"	f	class:R.layout
+com_facebook_picker_image	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_image=0x7f040023;$/;"	f	class:R.id
+com_facebook_picker_item_background	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_item_background = 0x7f020010;$/;"	f	class:R.drawable
+com_facebook_picker_item_background	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_item_background=0x7f020010;$/;"	f	class:R.drawable
+com_facebook_picker_list_focused	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_list_focused = 0x7f020011;$/;"	f	class:R.drawable
+com_facebook_picker_list_focused	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_list_focused=0x7f020011;$/;"	f	class:R.drawable
+com_facebook_picker_list_longpressed	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_list_longpressed = 0x7f020012;$/;"	f	class:R.drawable
+com_facebook_picker_list_longpressed	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_list_longpressed=0x7f020012;$/;"	f	class:R.drawable
+com_facebook_picker_list_pressed	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_list_pressed = 0x7f020013;$/;"	f	class:R.drawable
+com_facebook_picker_list_pressed	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_list_pressed=0x7f020013;$/;"	f	class:R.drawable
+com_facebook_picker_list_row	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_list_row = 0x7f030012;$/;"	f	class:R.layout
+com_facebook_picker_list_row	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_list_row=0x7f030012;$/;"	f	class:R.layout
+com_facebook_picker_list_section_header	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_list_section_header = 0x7f030013;$/;"	f	class:R.layout
+com_facebook_picker_list_section_header	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_list_section_header = 0x7f040027;$/;"	f	class:R.id
+com_facebook_picker_list_section_header	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_list_section_header=0x7f030013;$/;"	f	class:R.layout
+com_facebook_picker_list_section_header	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_list_section_header=0x7f040027;$/;"	f	class:R.id
+com_facebook_picker_list_selector	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_list_selector = 0x7f020014;$/;"	f	class:R.drawable
+com_facebook_picker_list_selector	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_list_selector=0x7f020014;$/;"	f	class:R.drawable
+com_facebook_picker_list_selector_background_transition	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_list_selector_background_transition = 0x7f020015;$/;"	f	class:R.drawable
+com_facebook_picker_list_selector_background_transition	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_list_selector_background_transition=0x7f020015;$/;"	f	class:R.drawable
+com_facebook_picker_list_selector_disabled	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_list_selector_disabled = 0x7f020016;$/;"	f	class:R.drawable
+com_facebook_picker_list_selector_disabled	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_list_selector_disabled=0x7f020016;$/;"	f	class:R.drawable
+com_facebook_picker_list_view	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_list_view = 0x7f04001e;$/;"	f	class:R.id
+com_facebook_picker_list_view	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_list_view=0x7f04001e;$/;"	f	class:R.id
+com_facebook_picker_profile_pic_stub	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_profile_pic_stub = 0x7f040024;$/;"	f	class:R.id
+com_facebook_picker_profile_pic_stub	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_profile_pic_stub=0x7f040024;$/;"	f	class:R.id
+com_facebook_picker_row_activity_circle	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_row_activity_circle = 0x7f040021;$/;"	f	class:R.id
+com_facebook_picker_row_activity_circle	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_row_activity_circle=0x7f040021;$/;"	f	class:R.id
+com_facebook_picker_search_box	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_search_box = 0x7f030014;$/;"	f	class:R.layout
+com_facebook_picker_search_box	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_search_box=0x7f030014;$/;"	f	class:R.layout
+com_facebook_picker_title	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_title = 0x7f040025;$/;"	f	class:R.id
+com_facebook_picker_title	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_title=0x7f040025;$/;"	f	class:R.id
+com_facebook_picker_title_bar	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_title_bar = 0x7f030015;$/;"	f	class:R.layout
+com_facebook_picker_title_bar	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_title_bar = 0x7f04002c;$/;"	f	class:R.id
+com_facebook_picker_title_bar	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_title_bar=0x7f030015;$/;"	f	class:R.layout
+com_facebook_picker_title_bar	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_title_bar=0x7f04002c;$/;"	f	class:R.id
+com_facebook_picker_title_bar_stub	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_title_bar_stub = 0x7f030016;$/;"	f	class:R.layout
+com_facebook_picker_title_bar_stub	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_title_bar_stub = 0x7f04002b;$/;"	f	class:R.id
+com_facebook_picker_title_bar_stub	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_title_bar_stub=0x7f030016;$/;"	f	class:R.layout
+com_facebook_picker_title_bar_stub	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_title_bar_stub=0x7f04002b;$/;"	f	class:R.id
+com_facebook_picker_top_bar	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_top_bar = 0x7f040028;$/;"	f	class:R.id
+com_facebook_picker_top_bar	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_top_bar=0x7f040028;$/;"	f	class:R.id
+com_facebook_picker_top_button	gen/com/facebook/android/R.java	/^		public static final int com_facebook_picker_top_button = 0x7f020017;$/;"	f	class:R.drawable
+com_facebook_picker_top_button	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_picker_top_button=0x7f020017;$/;"	f	class:R.drawable
+com_facebook_place_default_icon	gen/com/facebook/android/R.java	/^		public static final int com_facebook_place_default_icon = 0x7f020018;$/;"	f	class:R.drawable
+com_facebook_place_default_icon	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_place_default_icon=0x7f020018;$/;"	f	class:R.drawable
+com_facebook_place_picker_fragment	gen/com/facebook/android/R.java	/^		public static final int[] com_facebook_place_picker_fragment = { 0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b };$/;"	f	class:R.styleable
+com_facebook_place_picker_fragment	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int[] com_facebook_place_picker_fragment = {$/;"	f	class:R.styleable
+com_facebook_place_picker_fragment_radius_in_meters	gen/com/facebook/android/R.java	/^		public static final int com_facebook_place_picker_fragment_radius_in_meters = 0;$/;"	f	class:R.styleable
+com_facebook_place_picker_fragment_radius_in_meters	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_place_picker_fragment_radius_in_meters = 0;$/;"	f	class:R.styleable
+com_facebook_place_picker_fragment_results_limit	gen/com/facebook/android/R.java	/^		public static final int com_facebook_place_picker_fragment_results_limit = 1;$/;"	f	class:R.styleable
+com_facebook_place_picker_fragment_results_limit	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_place_picker_fragment_results_limit = 1;$/;"	f	class:R.styleable
+com_facebook_place_picker_fragment_search_text	gen/com/facebook/android/R.java	/^		public static final int com_facebook_place_picker_fragment_search_text = 2;$/;"	f	class:R.styleable
+com_facebook_place_picker_fragment_search_text	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_place_picker_fragment_search_text = 2;$/;"	f	class:R.styleable
+com_facebook_place_picker_fragment_show_search_box	gen/com/facebook/android/R.java	/^		public static final int com_facebook_place_picker_fragment_show_search_box = 3;$/;"	f	class:R.styleable
+com_facebook_place_picker_fragment_show_search_box	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_place_picker_fragment_show_search_box = 3;$/;"	f	class:R.styleable
+com_facebook_placepicker_subtitle_catetory_only_format	gen/com/facebook/android/R.java	/^		public static final int com_facebook_placepicker_subtitle_catetory_only_format = 0x7f05000c;$/;"	f	class:R.string
+com_facebook_placepicker_subtitle_catetory_only_format	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_placepicker_subtitle_catetory_only_format=0x7f05000c;$/;"	f	class:R.string
+com_facebook_placepicker_subtitle_format	gen/com/facebook/android/R.java	/^		public static final int com_facebook_placepicker_subtitle_format = 0x7f05000b;$/;"	f	class:R.string
+com_facebook_placepicker_subtitle_format	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_placepicker_subtitle_format=0x7f05000b;$/;"	f	class:R.string
+com_facebook_placepicker_subtitle_were_here_only_format	gen/com/facebook/android/R.java	/^		public static final int com_facebook_placepicker_subtitle_were_here_only_format = 0x7f05000d;$/;"	f	class:R.string
+com_facebook_placepicker_subtitle_were_here_only_format	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_placepicker_subtitle_were_here_only_format=0x7f05000d;$/;"	f	class:R.string
+com_facebook_placepickerfragment	gen/com/facebook/android/R.java	/^		public static final int com_facebook_placepickerfragment = 0x7f030017;$/;"	f	class:R.layout
+com_facebook_placepickerfragment	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_placepickerfragment=0x7f030017;$/;"	f	class:R.layout
+com_facebook_placepickerfragment_list_row	gen/com/facebook/android/R.java	/^		public static final int com_facebook_placepickerfragment_list_row = 0x7f030018;$/;"	f	class:R.layout
+com_facebook_placepickerfragment_list_row	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_placepickerfragment_list_row=0x7f030018;$/;"	f	class:R.layout
+com_facebook_placepickerfragment_search_box_stub	gen/com/facebook/android/R.java	/^		public static final int com_facebook_placepickerfragment_search_box_stub = 0x7f04002d;$/;"	f	class:R.id
+com_facebook_placepickerfragment_search_box_stub	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_placepickerfragment_search_box_stub=0x7f04002d;$/;"	f	class:R.id
+com_facebook_profile_default_icon	gen/com/facebook/android/R.java	/^		public static final int com_facebook_profile_default_icon = 0x7f020019;$/;"	f	class:R.drawable
+com_facebook_profile_default_icon	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_profile_default_icon=0x7f020019;$/;"	f	class:R.drawable
+com_facebook_profile_picture_blank_portrait	gen/com/facebook/android/R.java	/^		public static final int com_facebook_profile_picture_blank_portrait = 0x7f02001a;$/;"	f	class:R.drawable
+com_facebook_profile_picture_blank_portrait	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_profile_picture_blank_portrait=0x7f02001a;$/;"	f	class:R.drawable
+com_facebook_profile_picture_blank_square	gen/com/facebook/android/R.java	/^		public static final int com_facebook_profile_picture_blank_square = 0x7f02001b;$/;"	f	class:R.drawable
+com_facebook_profile_picture_blank_square	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_profile_picture_blank_square=0x7f02001b;$/;"	f	class:R.drawable
+com_facebook_profile_picture_view	gen/com/facebook/android/R.java	/^		public static final int[] com_facebook_profile_picture_view = { 0x7f010010, 0x7f010011 };$/;"	f	class:R.styleable
+com_facebook_profile_picture_view	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int[] com_facebook_profile_picture_view = {$/;"	f	class:R.styleable
+com_facebook_profile_picture_view_is_cropped	gen/com/facebook/android/R.java	/^		public static final int com_facebook_profile_picture_view_is_cropped = 1;$/;"	f	class:R.styleable
+com_facebook_profile_picture_view_is_cropped	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_profile_picture_view_is_cropped = 1;$/;"	f	class:R.styleable
+com_facebook_profile_picture_view_preset_size	gen/com/facebook/android/R.java	/^		public static final int com_facebook_profile_picture_view_preset_size = 0;$/;"	f	class:R.styleable
+com_facebook_profile_picture_view_preset_size	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_profile_picture_view_preset_size = 0;$/;"	f	class:R.styleable
+com_facebook_profilepictureview_preset_size_large	gen/com/facebook/android/R.java	/^		public static final int com_facebook_profilepictureview_preset_size_large = 0x7f07000b;$/;"	f	class:R.dimen
+com_facebook_profilepictureview_preset_size_large	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_profilepictureview_preset_size_large=0x7f07000b;$/;"	f	class:R.dimen
+com_facebook_profilepictureview_preset_size_normal	gen/com/facebook/android/R.java	/^		public static final int com_facebook_profilepictureview_preset_size_normal = 0x7f07000a;$/;"	f	class:R.dimen
+com_facebook_profilepictureview_preset_size_normal	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_profilepictureview_preset_size_normal=0x7f07000a;$/;"	f	class:R.dimen
+com_facebook_profilepictureview_preset_size_small	gen/com/facebook/android/R.java	/^		public static final int com_facebook_profilepictureview_preset_size_small = 0x7f070009;$/;"	f	class:R.dimen
+com_facebook_profilepictureview_preset_size_small	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_profilepictureview_preset_size_small=0x7f070009;$/;"	f	class:R.dimen
+com_facebook_requesterror_password_changed	gen/com/facebook/android/R.java	/^		public static final int com_facebook_requesterror_password_changed = 0x7f050016;$/;"	f	class:R.string
+com_facebook_requesterror_password_changed	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_requesterror_password_changed=0x7f050016;$/;"	f	class:R.string
+com_facebook_requesterror_permissions	gen/com/facebook/android/R.java	/^		public static final int com_facebook_requesterror_permissions = 0x7f050018;$/;"	f	class:R.string
+com_facebook_requesterror_permissions	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_requesterror_permissions=0x7f050018;$/;"	f	class:R.string
+com_facebook_requesterror_reconnect	gen/com/facebook/android/R.java	/^		public static final int com_facebook_requesterror_reconnect = 0x7f050017;$/;"	f	class:R.string
+com_facebook_requesterror_reconnect	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_requesterror_reconnect=0x7f050017;$/;"	f	class:R.string
+com_facebook_requesterror_relogin	gen/com/facebook/android/R.java	/^		public static final int com_facebook_requesterror_relogin = 0x7f050015;$/;"	f	class:R.string
+com_facebook_requesterror_relogin	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_requesterror_relogin=0x7f050015;$/;"	f	class:R.string
+com_facebook_requesterror_web_login	gen/com/facebook/android/R.java	/^		public static final int com_facebook_requesterror_web_login = 0x7f050014;$/;"	f	class:R.string
+com_facebook_requesterror_web_login	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_requesterror_web_login=0x7f050014;$/;"	f	class:R.string
+com_facebook_top_background	gen/com/facebook/android/R.java	/^		public static final int com_facebook_top_background = 0x7f02001c;$/;"	f	class:R.drawable
+com_facebook_top_background	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_top_background=0x7f02001c;$/;"	f	class:R.drawable
+com_facebook_top_button	gen/com/facebook/android/R.java	/^		public static final int com_facebook_top_button = 0x7f02001d;$/;"	f	class:R.drawable
+com_facebook_top_button	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_top_button=0x7f02001d;$/;"	f	class:R.drawable
+com_facebook_usersettingsfragment	gen/com/facebook/android/R.java	/^		public static final int com_facebook_usersettingsfragment = 0x7f030019;$/;"	f	class:R.layout
+com_facebook_usersettingsfragment	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_usersettingsfragment=0x7f030019;$/;"	f	class:R.layout
+com_facebook_usersettingsfragment_background_gradient	gen/com/facebook/android/R.java	/^		public static final int com_facebook_usersettingsfragment_background_gradient = 0x7f02001e;$/;"	f	class:R.drawable
+com_facebook_usersettingsfragment_background_gradient	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_usersettingsfragment_background_gradient=0x7f02001e;$/;"	f	class:R.drawable
+com_facebook_usersettingsfragment_connected_shadow_color	gen/com/facebook/android/R.java	/^		public static final int com_facebook_usersettingsfragment_connected_shadow_color = 0x7f060002;$/;"	f	class:R.color
+com_facebook_usersettingsfragment_connected_shadow_color	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_usersettingsfragment_connected_shadow_color=0x7f060002;$/;"	f	class:R.color
+com_facebook_usersettingsfragment_connected_text_color	gen/com/facebook/android/R.java	/^		public static final int com_facebook_usersettingsfragment_connected_text_color = 0x7f060001;$/;"	f	class:R.color
+com_facebook_usersettingsfragment_connected_text_color	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_usersettingsfragment_connected_text_color=0x7f060001;$/;"	f	class:R.color
+com_facebook_usersettingsfragment_log_in_button	gen/com/facebook/android/R.java	/^		public static final int com_facebook_usersettingsfragment_log_in_button = 0x7f050008;$/;"	f	class:R.string
+com_facebook_usersettingsfragment_log_in_button	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_usersettingsfragment_log_in_button=0x7f050008;$/;"	f	class:R.string
+com_facebook_usersettingsfragment_logged_in	gen/com/facebook/android/R.java	/^		public static final int com_facebook_usersettingsfragment_logged_in = 0x7f050009;$/;"	f	class:R.string
+com_facebook_usersettingsfragment_logged_in	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_usersettingsfragment_logged_in=0x7f050009;$/;"	f	class:R.string
+com_facebook_usersettingsfragment_login_button	gen/com/facebook/android/R.java	/^		public static final int com_facebook_usersettingsfragment_login_button = 0x7f040032;$/;"	f	class:R.id
+com_facebook_usersettingsfragment_login_button	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_usersettingsfragment_login_button=0x7f040032;$/;"	f	class:R.id
+com_facebook_usersettingsfragment_logo_image	gen/com/facebook/android/R.java	/^		public static final int com_facebook_usersettingsfragment_logo_image = 0x7f040030;$/;"	f	class:R.id
+com_facebook_usersettingsfragment_logo_image	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_usersettingsfragment_logo_image=0x7f040030;$/;"	f	class:R.id
+com_facebook_usersettingsfragment_not_connected_text_color	gen/com/facebook/android/R.java	/^		public static final int com_facebook_usersettingsfragment_not_connected_text_color = 0x7f060003;$/;"	f	class:R.color
+com_facebook_usersettingsfragment_not_connected_text_color	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_usersettingsfragment_not_connected_text_color=0x7f060003;$/;"	f	class:R.color
+com_facebook_usersettingsfragment_not_logged_in	gen/com/facebook/android/R.java	/^		public static final int com_facebook_usersettingsfragment_not_logged_in = 0x7f05000a;$/;"	f	class:R.string
+com_facebook_usersettingsfragment_not_logged_in	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_usersettingsfragment_not_logged_in=0x7f05000a;$/;"	f	class:R.string
+com_facebook_usersettingsfragment_profile_name	gen/com/facebook/android/R.java	/^		public static final int com_facebook_usersettingsfragment_profile_name = 0x7f040031;$/;"	f	class:R.id
+com_facebook_usersettingsfragment_profile_name	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_usersettingsfragment_profile_name=0x7f040031;$/;"	f	class:R.id
+com_facebook_usersettingsfragment_profile_picture_height	gen/com/facebook/android/R.java	/^		public static final int com_facebook_usersettingsfragment_profile_picture_height = 0x7f070001;$/;"	f	class:R.dimen
+com_facebook_usersettingsfragment_profile_picture_height	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_usersettingsfragment_profile_picture_height=0x7f070001;$/;"	f	class:R.dimen
+com_facebook_usersettingsfragment_profile_picture_width	gen/com/facebook/android/R.java	/^		public static final int com_facebook_usersettingsfragment_profile_picture_width = 0x7f070000;$/;"	f	class:R.dimen
+com_facebook_usersettingsfragment_profile_picture_width	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int com_facebook_usersettingsfragment_profile_picture_width=0x7f070000;$/;"	f	class:R.dimen
+confirm_logout	gen/com/facebook/android/R.java	/^		public static final int confirm_logout = 0x7f01000c;$/;"	f	class:R.attr
+confirm_logout	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int confirm_logout=0x7f01000c;$/;"	f	class:R.attr
+context	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^		private     Context context;$/;"	f	class:TripDbAdapter.DatabaseHelper	file:
+convertStringToArray	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	public static ArrayList<String> convertStringToArray(String str)$/;"	m	class:TripDbAdapter
+createItem	src/com/mpcs/mytravelmemoirs/ViewGoogleMapsActivity.java	/^		protected OverlayItem createItem(int i) {$/;"	m	class:ViewGoogleMapsActivity.MapsOverlay
+createPhoto	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	public long createPhoto(String name, String caption, String city, int trip_id)$/;"	m	class:TripDbAdapter
+createTrip	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	public long createTrip(int id , String name)$/;"	m	class:TripDbAdapter
+createchk	src/com/mpcs/mytravelmemoirs/MainActivity.java	/^	public static boolean createchk = true;$/;"	f	class:MainActivity
+currentTripId	src/com/mpcs/mytravelmemoirs/MainActivity.java	/^	public static int currentTripId=0 ;$/;"	f	class:MainActivity
+db	src/com/mpcs/mytravelmemoirs/MainActivity.java	/^	public static TripDbAdapter db;$/;"	f	class:MainActivity
+delete	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int delete=0x7f040037;$/;"	f	class:R.id
+deletePhoto	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	public void deletePhoto(int id)$/;"	m	class:TripDbAdapter
+deleteTrip	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	public boolean deleteTrip(int id)$/;"	m	class:TripDbAdapter
+dimen	gen/com/facebook/android/R.java	/^	public static final class dimen {$/;"	c	class:R
+dimen	gen/com/mpcs/mytravelmemoirs/R.java	/^    public static final class dimen {$/;"	c	class:R
+done_button_background	gen/com/facebook/android/R.java	/^		public static final int done_button_background = 0x7f010006;$/;"	f	class:R.attr
+done_button_background	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int done_button_background=0x7f010006;$/;"	f	class:R.attr
+done_button_text	gen/com/facebook/android/R.java	/^		public static final int done_button_text = 0x7f010004;$/;"	f	class:R.attr
+done_button_text	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int done_button_text=0x7f010004;$/;"	f	class:R.attr
+draw	src/com/mpcs/mytravelmemoirs/MyOverlay.java	/^	public void draw(Canvas canvas, MapView mapv, boolean shadow){$/;"	m	class:MyOverlay
+drawable	gen/com/facebook/android/R.java	/^	public static final class drawable {$/;"	c	class:R
+drawable	gen/com/mpcs/mytravelmemoirs/R.java	/^    public static final class drawable {$/;"	c	class:R
+drawable	src/com/mpcs/mytravelmemoirs/ViewGoogleMapsActivity.java	/^	private Drawable drawable;$/;"	f	class:ViewGoogleMapsActivity	file:
+editText1	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int editText1=0x7f040008;$/;"	f	class:R.id
+end	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int end=0x7f02001f;$/;"	f	class:R.drawable
+endCity	src/com/mpcs/mytravelmemoirs/ViewGoogleMapsActivity.java	/^	private GPS endCity = null;$/;"	f	class:ViewGoogleMapsActivity	file:
+endTrip	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	public long endTrip(int id)$/;"	m	class:TripDbAdapter
+extra_fields	gen/com/facebook/android/R.java	/^		public static final int extra_fields = 0x7f010001;$/;"	f	class:R.attr
+extra_fields	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int extra_fields=0x7f010001;$/;"	f	class:R.attr
+fetch_user_info	gen/com/facebook/android/R.java	/^		public static final int fetch_user_info = 0x7f01000d;$/;"	f	class:R.attr
+fetch_user_info	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int fetch_user_info=0x7f01000d;$/;"	f	class:R.attr
+fileName	src/com/mpcs/mytravelmemoirs/CaptureImage.java	/^	private static String fileName = null;$/;"	f	class:CaptureImage	file:
+fileNames	src/com/mpcs/mytravelmemoirs/SingleTripActivity.java	/^	List<String> fileNames = new ArrayList<String>(); $/;"	f	class:MyRunnable
+fileUri	src/com/mpcs/mytravelmemoirs/CaptureImage.java	/^	private Uri fileUri;$/;"	f	class:CaptureImage	file:
+geoPointsArray	src/com/mpcs/mytravelmemoirs/MyOverlay.java	/^	private List<GeoPoint> geoPointsArray;$/;"	f	class:MyOverlay	file:
+getAllTrips	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	public Cursor getAllTrips()$/;"	m	class:TripDbAdapter
+getCityName	src/com/mpcs/mytravelmemoirs/GPS.java	/^    public  String getCityName(double latitude, double longitude) {$/;"	m	class:GPS
+getCityName	src/com/mpcs/mytravelmemoirs/GPSActivity.java	/^	private String getCityName(double latitude, double longitude) {$/;"	m	class:GPSActivity	file:
+getCityName	src/com/mpcs/mytravelmemoirs/ViewGoogleMapsActivity.java	/^	private String getCityName(GeoPoint point)$/;"	m	class:ViewGoogleMapsActivity	file:
+getEndCity	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	public GPS getEndCity(int trip_id)$/;"	m	class:TripDbAdapter
+getIntermediateCities	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	public ArrayList<GPS> getIntermediateCities(int trip_id)$/;"	m	class:TripDbAdapter
+getLatitude	src/com/mpcs/mytravelmemoirs/GPS.java	/^    public double getLatitude(){$/;"	m	class:GPS
+getLocation	src/com/mpcs/mytravelmemoirs/GPS.java	/^    public Location getLocation() {$/;"	m	class:GPS
+getLongitude	src/com/mpcs/mytravelmemoirs/GPS.java	/^    public double getLongitude(){$/;"	m	class:GPS
+getMaxId	src/com/mpcs/mytravelmemoirs/MainActivity.java	/^	private int getMaxId()$/;"	m	class:MainActivity	file:
+getNumPhotosCity	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	public int getNumPhotosCity(String name, int trip_id)$/;"	m	class:TripDbAdapter
+getOutputMediaFile	src/com/mpcs/mytravelmemoirs/CaptureImage.java	/^	private static File getOutputMediaFile(int type, Context context) {$/;"	m	class:CaptureImage	file:
+getOutputMediaFileUri	src/com/mpcs/mytravelmemoirs/CaptureImage.java	/^	private static Uri getOutputMediaFileUri(int type,Context context) {$/;"	m	class:CaptureImage	file:
+getPhotoCaption	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	public String getPhotoCaption(String name)$/;"	m	class:TripDbAdapter
+getStartCity	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	public GPS getStartCity(int trip_id)$/;"	m	class:TripDbAdapter
+getThumbnail	src/com/mpcs/mytravelmemoirs/ListCurrentTrip.java	/^		private Bitmap getThumbnail(int id, final String newName){$/;"	m	class:ListCurrentTrip	file:
+getThumbnail	src/com/mpcs/mytravelmemoirs/ViewCityPhotosActivity.java	/^private Bitmap getThumbnail(int id, final String newName){$/;"	m	class:ViewCityPhotosActivity	file:
+getView	src/com/mpcs/mytravelmemoirs/ListCurrentTrip.java	/^			public View getView(int position, View convertView, ViewGroup parent) {$/;"	m	class:ListCurrentTrip.MyAdapter
+getView	src/com/mpcs/mytravelmemoirs/ViewCityPhotosActivity.java	/^    public View getView(int position, View convertView, ViewGroup parent) {$/;"	m	class:ViewCityPhotosActivity.MyAdapter
+gettripid	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	public int gettripid(String name)$/;"	m	class:TripDbAdapter
+gps	src/com/mpcs/mytravelmemoirs/GPSActivity.java	/^	GPS gps;$/;"	f	class:GPSActivity
+greeting	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int greeting=0x7f040013;$/;"	f	class:R.id
+hello_world	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int hello_world=0x7f05001a;$/;"	f	class:R.string
+ic_action_search	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int ic_action_search=0x7f020020;$/;"	f	class:R.drawable
+ic_launcher	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int ic_launcher=0x7f020021;$/;"	f	class:R.drawable
+id	gen/com/facebook/android/R.java	/^	public static final class id {$/;"	c	class:R
+id	gen/com/mpcs/mytravelmemoirs/R.java	/^    public static final class id {$/;"	c	class:R
+imageView1	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int imageView1=0x7f040014;$/;"	f	class:R.id
+intermediateCities	src/com/mpcs/mytravelmemoirs/ViewGoogleMapsActivity.java	/^	private  List<GPS> intermediateCities = new ArrayList<GPS>();$/;"	f	class:ViewGoogleMapsActivity	file:
+intermediateCity	src/com/mpcs/mytravelmemoirs/ViewGoogleMapsActivity.java	/^	private GPS intermediateCity = null; $/;"	f	class:ViewGoogleMapsActivity	file:
+isGPSEnabled	src/com/mpcs/mytravelmemoirs/GPS.java	/^    boolean isGPSEnabled = false;$/;"	f	class:GPS
+isNetworkEnabled	src/com/mpcs/mytravelmemoirs/GPS.java	/^    boolean isNetworkEnabled = false;$/;"	f	class:GPS
+isRouteDisplayed	src/com/mpcs/mytravelmemoirs/ViewGoogleMapsActivity.java	/^	protected boolean isRouteDisplayed() {$/;"	m	class:ViewGoogleMapsActivity
+is_cropped	gen/com/facebook/android/R.java	/^		public static final int is_cropped = 0x7f010011;$/;"	f	class:R.attr
+is_cropped	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int is_cropped=0x7f010011;$/;"	f	class:R.attr
+item	src/com/mpcs/mytravelmemoirs/MainActivity.java	/^	private List<String> item = null;$/;"	f	class:MainActivity	file:
+large	gen/com/facebook/android/R.java	/^		public static final int large = 0x7f040002;$/;"	f	class:R.id
+large	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int large=0x7f040002;$/;"	f	class:R.id
+latitude	src/com/mpcs/mytravelmemoirs/CaptureImage.java	/^	double latitude;$/;"	f	class:CaptureImage
+latitude	src/com/mpcs/mytravelmemoirs/GPS.java	/^    double latitude; \/\/ latitude$/;"	f	class:GPS
+layout	gen/com/facebook/android/R.java	/^	public static final class layout {$/;"	c	class:R
+layout	gen/com/mpcs/mytravelmemoirs/R.java	/^    public static final class layout {$/;"	c	class:R
+location	src/com/mpcs/mytravelmemoirs/GPS.java	/^    private static Location location; \/\/ location$/;"	f	class:GPS	file:
+locationManager	src/com/mpcs/mytravelmemoirs/GPS.java	/^    protected LocationManager locationManager;$/;"	f	class:GPS
+locationsCreate	src/com/mpcs/mytravelmemoirs/DbHelper.java	/^	private static String locationsCreate = "create table Location( id integer primary key autoincrement, name text not null);" ;$/;"	f	class:DbHelper	file:
+locationsCreate	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	private static String locationsCreate = "create table Location(_id integer primary key autoincrement, trip_id integer , city text not null , lat double not null, lon double not null, start boolean , end boolean, inter boolean);" ;$/;"	f	class:TripDbAdapter	file:
+lock	src/com/mpcs/mytravelmemoirs/SingleTripActivity.java	/^	int lock = 0;$/;"	f	class:MyRunnable
+loginButton	src/com/mpcs/mytravelmemoirs/StartActivity.java	/^	private LoginButton loginButton;$/;"	f	class:StartActivity	file:
+login_button	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int login_button=0x7f040016;$/;"	f	class:R.id
+login_text	gen/com/facebook/android/R.java	/^		public static final int login_text = 0x7f01000e;$/;"	f	class:R.attr
+login_text	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int login_text=0x7f01000e;$/;"	f	class:R.attr
+logout_text	gen/com/facebook/android/R.java	/^		public static final int logout_text = 0x7f01000f;$/;"	f	class:R.attr
+logout_text	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int logout_text=0x7f01000f;$/;"	f	class:R.attr
+longitude	src/com/mpcs/mytravelmemoirs/CaptureImage.java	/^	double longitude;$/;"	f	class:CaptureImage
+longitude	src/com/mpcs/mytravelmemoirs/GPS.java	/^    double longitude; \/\/ longitude$/;"	f	class:GPS
+lv	src/com/mpcs/mytravelmemoirs/ViewOldTripsActivity.java	/^	private ListView lv;$/;"	f	class:ViewOldTripsActivity	file:
+mContext	src/com/mpcs/mytravelmemoirs/GPS.java	/^    private final Context mContext;$/;"	f	class:GPS	file:
+mContext	src/com/mpcs/mytravelmemoirs/ViewGoogleMapsActivity.java	/^	private Context mContext;$/;"	f	class:ViewGoogleMapsActivity	file:
+mCtx	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	private Context mCtx;$/;"	f	class:TripDbAdapter	file:
+mDb	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	private SQLiteDatabase mDb;$/;"	f	class:TripDbAdapter	file:
+mDbHelper	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	private DatabaseHelper mDbHelper;$/;"	f	class:TripDbAdapter	file:
+mOverlays	src/com/mpcs/mytravelmemoirs/ViewGoogleMapsActivity.java	/^	private ArrayList<OverlayItem> mOverlays = new ArrayList<OverlayItem>();$/;"	f	class:ViewGoogleMapsActivity	file:
+main_ui_container	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int main_ui_container=0x7f040012;$/;"	f	class:R.id
+mapOverlays	src/com/mpcs/mytravelmemoirs/ViewGoogleMapsActivity.java	/^	private List<Overlay> mapOverlays;$/;"	f	class:ViewGoogleMapsActivity	file:
+maps	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int maps=0x7f04000f;$/;"	f	class:R.id
+maps	src/com/mpcs/mytravelmemoirs/MyOverlay.java	/^	private MapView maps;$/;"	f	class:MyOverlay	file:
+mapview	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int mapview=0x7f04000e;$/;"	f	class:R.id
+menu	gen/com/mpcs/mytravelmemoirs/R.java	/^    public static final class menu {$/;"	c	class:R
+menu_settings	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int menu_settings=0x7f040036;$/;"	f	class:R.id
+menu_settings	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int menu_settings=0x7f05001b;$/;"	f	class:R.string
+multi_select	gen/com/facebook/android/R.java	/^		public static final int multi_select = 0x7f010007;$/;"	f	class:R.attr
+multi_select	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int multi_select=0x7f010007;$/;"	f	class:R.attr
+myContext	src/com/mpcs/mytravelmemoirs/ListCurrentTrip.java	/^			Context myContext;$/;"	f	class:ListCurrentTrip.MyAdapter
+myContext	src/com/mpcs/mytravelmemoirs/ViewCityPhotosActivity.java	/^    Context myContext;$/;"	f	class:ViewCityPhotosActivity.MyAdapter
+myCursor	src/com/mpcs/mytravelmemoirs/ListCurrentTrip.java	/^			Cursor myCursor;$/;"	f	class:ListCurrentTrip.MyAdapter
+myCursor	src/com/mpcs/mytravelmemoirs/ViewCityPhotosActivity.java	/^    Cursor myCursor;$/;"	f	class:ViewCityPhotosActivity.MyAdapter
+myOnItemClickListener	src/com/mpcs/mytravelmemoirs/ListCurrentTrip.java	/^	OnItemClickListener myOnItemClickListener$/;"	f	class:ListCurrentTrip
+myOnItemClickListener	src/com/mpcs/mytravelmemoirs/ViewCityPhotosActivity.java	/^	OnItemClickListener myOnItemClickListener$/;"	f	class:ViewCityPhotosActivity
+mySimpleCursorAdapter	src/com/mpcs/mytravelmemoirs/ListCurrentTrip.java	/^	MyAdapter mySimpleCursorAdapter;$/;"	f	class:ListCurrentTrip
+mySimpleCursorAdapter	src/com/mpcs/mytravelmemoirs/ViewCityPhotosActivity.java	/^	MyAdapter mySimpleCursorAdapter;$/;"	f	class:ViewCityPhotosActivity
+myhandler	src/com/mpcs/mytravelmemoirs/CreateTripActivity.java	/^	View.OnClickListener myhandler = new View.OnClickListener() {$/;"	f	class:CreateTripActivity
+myhandler	src/com/mpcs/mytravelmemoirs/TripInfoActivity.java	/^	View.OnClickListener myhandler = new View.OnClickListener() {$/;"	f	class:TripInfoActivity
+normal	gen/com/facebook/android/R.java	/^		public static final int normal = 0x7f040001;$/;"	f	class:R.id
+normal	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int normal=0x7f040001;$/;"	f	class:R.id
+onActivityResult	src/com/mpcs/mytravelmemoirs/CaptureImage.java	/^	protected void onActivityResult(int requestCode, int resultCode, Intent data) {$/;"	m	class:CaptureImage
+onActivityResult	src/com/mpcs/mytravelmemoirs/StartActivity.java	/^  public void onActivityResult(int requestCode, int resultCode, Intent data) {$/;"	m	class:StartActivity
+onBackPressed	src/com/mpcs/mytravelmemoirs/MainActivity.java	/^	public void onBackPressed ()$/;"	m	class:MainActivity
+onBackPressed	src/com/mpcs/mytravelmemoirs/NewTripActivity.java	/^	public void onBackPressed ()$/;"	m	class:NewTripActivity
+onBackPressed	src/com/mpcs/mytravelmemoirs/TripInfoActivity.java	/^	public void onBackPressed ()$/;"	m	class:TripInfoActivity
+onBind	src/com/mpcs/mytravelmemoirs/GPS.java	/^    public IBinder onBind(Intent arg0) {$/;"	m	class:GPS
+onCreate	src/com/mpcs/mytravelmemoirs/CaptureImage.java	/^	public void onCreate(Bundle savedInstanceState) {$/;"	m	class:CaptureImage
+onCreate	src/com/mpcs/mytravelmemoirs/CreateTripActivity.java	/^	protected void onCreate(Bundle savedInstanceState) {$/;"	m	class:CreateTripActivity
+onCreate	src/com/mpcs/mytravelmemoirs/DbHelper.java	/^	public void onCreate(SQLiteDatabase db) {$/;"	m	class:DbHelper
+onCreate	src/com/mpcs/mytravelmemoirs/GPSActivity.java	/^	public void onCreate(Bundle savedInstanceState) {$/;"	m	class:GPSActivity
+onCreate	src/com/mpcs/mytravelmemoirs/HelpActivity.java	/^	  public void onCreate(Bundle savedInstanceState) {$/;"	m	class:HelpActivity
+onCreate	src/com/mpcs/mytravelmemoirs/ListCurrentTrip.java	/^	public void onCreate(Bundle savedInstanceState) {$/;"	m	class:ListCurrentTrip
+onCreate	src/com/mpcs/mytravelmemoirs/MainActivity.java	/^	protected void onCreate(Bundle savedInstanceState) $/;"	m	class:MainActivity
+onCreate	src/com/mpcs/mytravelmemoirs/NewTripActivity.java	/^	protected void onCreate(Bundle savedInstanceState) {$/;"	m	class:NewTripActivity
+onCreate	src/com/mpcs/mytravelmemoirs/SingleTripActivity.java	/^	public void onCreate(Bundle savedInstanceState) {$/;"	m	class:SingleTripActivity
+onCreate	src/com/mpcs/mytravelmemoirs/StartActivity.java	/^  public void onCreate(Bundle savedInstanceState) {$/;"	m	class:StartActivity
+onCreate	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^		public void onCreate(SQLiteDatabase db) {$/;"	m	class:TripDbAdapter.DatabaseHelper
+onCreate	src/com/mpcs/mytravelmemoirs/TripInfoActivity.java	/^	protected void onCreate(Bundle savedInstanceState) {$/;"	m	class:TripInfoActivity
+onCreate	src/com/mpcs/mytravelmemoirs/ViewCityPhotosActivity.java	/^	public void onCreate(Bundle savedInstanceState) {$/;"	m	class:ViewCityPhotosActivity
+onCreate	src/com/mpcs/mytravelmemoirs/ViewGoogleMapsActivity.java	/^	public void onCreate(Bundle savedInstanceState) {$/;"	m	class:ViewGoogleMapsActivity
+onCreate	src/com/mpcs/mytravelmemoirs/ViewOldTripsActivity.java	/^	protected void onCreate(Bundle savedInstanceState) {$/;"	m	class:ViewOldTripsActivity
+onCreateOptionsMenu	src/com/mpcs/mytravelmemoirs/CreateTripActivity.java	/^	public boolean onCreateOptionsMenu(Menu menu) {$/;"	m	class:CreateTripActivity
+onCreateOptionsMenu	src/com/mpcs/mytravelmemoirs/MainActivity.java	/^	public boolean onCreateOptionsMenu(Menu menu) {$/;"	m	class:MainActivity
+onCreateOptionsMenu	src/com/mpcs/mytravelmemoirs/NewTripActivity.java	/^	public boolean onCreateOptionsMenu(Menu menu) {$/;"	m	class:NewTripActivity
+onCreateOptionsMenu	src/com/mpcs/mytravelmemoirs/SingleTripActivity.java	/^	public boolean onCreateOptionsMenu(Menu menu) {$/;"	m	class:SingleTripActivity
+onCreateOptionsMenu	src/com/mpcs/mytravelmemoirs/TripInfoActivity.java	/^	public boolean onCreateOptionsMenu(Menu menu) {$/;"	m	class:TripInfoActivity
+onCreateOptionsMenu	src/com/mpcs/mytravelmemoirs/ViewOldTripsActivity.java	/^	public boolean onCreateOptionsMenu(Menu menu) {$/;"	m	class:ViewOldTripsActivity
+onLocationChanged	src/com/mpcs/mytravelmemoirs/GPS.java	/^    public void onLocationChanged(Location location) {$/;"	m	class:GPS
+onProviderDisabled	src/com/mpcs/mytravelmemoirs/GPS.java	/^    public void onProviderDisabled(String provider) {$/;"	m	class:GPS
+onProviderEnabled	src/com/mpcs/mytravelmemoirs/GPS.java	/^    public void onProviderEnabled(String provider) {$/;"	m	class:GPS
+onSessionStateChange	src/com/mpcs/mytravelmemoirs/StartActivity.java	/^	    private void onSessionStateChange(Session session, SessionState state, Exception exception) {$/;"	m	class:StartActivity	file:
+onStatusChanged	src/com/mpcs/mytravelmemoirs/GPS.java	/^    public void onStatusChanged(String provider, int status, Bundle extras) {$/;"	m	class:GPS
+onTap	src/com/mpcs/mytravelmemoirs/ViewGoogleMapsActivity.java	/^		protected boolean onTap(int index) {$/;"	m	class:ViewGoogleMapsActivity.MapsOverlay
+onUpgrade	src/com/mpcs/mytravelmemoirs/DbHelper.java	/^	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {$/;"	m	class:DbHelper
+onUpgrade	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^		public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {$/;"	m	class:TripDbAdapter.DatabaseHelper
+open	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	public TripDbAdapter open() throws SQLException {$/;"	m	class:TripDbAdapter
+path	src/com/mpcs/mytravelmemoirs/MainActivity.java	/^	private List<String> path = null;$/;"	f	class:MainActivity	file:
+photo_caption	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	public static final String photo_caption="caption";$/;"	f	class:TripDbAdapter
+photo_id	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	public static final String photo_id = "_id";$/;"	f	class:TripDbAdapter
+photo_name	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	public static final String photo_name = "name";$/;"	f	class:TripDbAdapter
+photosCreate	src/com/mpcs/mytravelmemoirs/DbHelper.java	/^	private static String photosCreate = "create table Photos( id integer primary key autoincrement, name text not null);";$/;"	f	class:DbHelper	file:
+photosCreate	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	private static String photosCreate = "create table Photos(_id integer primary key autoincrement, name text not null, caption text, city text, trip_id integer);";$/;"	f	class:TripDbAdapter	file:
+picker_subtitle	gen/com/facebook/android/R.java	/^		public static final int picker_subtitle = 0x7f04002f;$/;"	f	class:R.id
+picker_subtitle	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int picker_subtitle=0x7f04002f;$/;"	f	class:R.id
+preset_size	gen/com/facebook/android/R.java	/^		public static final int preset_size = 0x7f010010;$/;"	f	class:R.attr
+preset_size	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int preset_size=0x7f010010;$/;"	f	class:R.attr
+projection	src/com/mpcs/mytravelmemoirs/MyOverlay.java	/^	private Projection projection;$/;"	f	class:MyOverlay	file:
+radius_in_meters	gen/com/facebook/android/R.java	/^		public static final int radius_in_meters = 0x7f010008;$/;"	f	class:R.attr
+radius_in_meters	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int radius_in_meters=0x7f010008;$/;"	f	class:R.attr
+rawQuery	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	public Cursor rawQuery(String query, Object object) {$/;"	m	class:TripDbAdapter
+results_limit	gen/com/facebook/android/R.java	/^		public static final int results_limit = 0x7f010009;$/;"	f	class:R.attr
+results_limit	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int results_limit=0x7f010009;$/;"	f	class:R.attr
+row	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int row=0x7f03001a;$/;"	f	class:R.layout
+run	src/com/mpcs/mytravelmemoirs/SingleTripActivity.java	/^    public void run(){$/;"	m	class:MyRunnable
+search_box	gen/com/facebook/android/R.java	/^		public static final int search_box = 0x7f04002e;$/;"	f	class:R.id
+search_box	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int search_box=0x7f04002e;$/;"	f	class:R.id
+search_text	gen/com/facebook/android/R.java	/^		public static final int search_text = 0x7f01000a;$/;"	f	class:R.attr
+search_text	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int search_text=0x7f01000a;$/;"	f	class:R.attr
+setLatitude	src/com/mpcs/mytravelmemoirs/GPS.java	/^	public void setLatitude(double lat) {$/;"	m	class:GPS
+setLongitude	src/com/mpcs/mytravelmemoirs/GPS.java	/^	public void setLongitude(double lon) {$/;"	m	class:GPS
+showGPSSettingsAlert	src/com/mpcs/mytravelmemoirs/GPS.java	/^    public void showGPSSettingsAlert(){$/;"	m	class:GPS
+showNtwrkSettingsAlert	src/com/mpcs/mytravelmemoirs/GPS.java	/^    public void showNtwrkSettingsAlert(){$/;"	m	class:GPS
+showPublishResult	src/com/mpcs/mytravelmemoirs/SingleTripActivity.java	/^	private void showPublishResult(String message, GraphObject result, FacebookRequestError error) {$/;"	m	class:SingleTripActivity	file:
+showPublishResult	src/com/mpcs/mytravelmemoirs/SingleTripActivity.java	/^    private void showPublishResult(String message, GraphObject result, FacebookRequestError error) {$/;"	m	class:MyRunnable	file:
+show_pictures	gen/com/facebook/android/R.java	/^		public static final int show_pictures = 0x7f010000;$/;"	f	class:R.attr
+show_pictures	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int show_pictures=0x7f010000;$/;"	f	class:R.attr
+show_search_box	gen/com/facebook/android/R.java	/^		public static final int show_search_box = 0x7f01000b;$/;"	f	class:R.attr
+show_search_box	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int show_search_box=0x7f01000b;$/;"	f	class:R.attr
+show_title_bar	gen/com/facebook/android/R.java	/^		public static final int show_title_bar = 0x7f010002;$/;"	f	class:R.attr
+show_title_bar	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int show_title_bar=0x7f010002;$/;"	f	class:R.attr
+size	src/com/mpcs/mytravelmemoirs/ViewGoogleMapsActivity.java	/^		public int size() {$/;"	m	class:ViewGoogleMapsActivity.MapsOverlay
+small	gen/com/facebook/android/R.java	/^		public static final int small = 0x7f040000;$/;"	f	class:R.id
+small	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int small=0x7f040000;$/;"	f	class:R.id
+sourceUri	src/com/mpcs/mytravelmemoirs/ListCurrentTrip.java	/^	final Uri sourceUri = MediaStore.Images.Media.EXTERNAL_CONTENT_URI;$/;"	f	class:ListCurrentTrip
+sourceUri	src/com/mpcs/mytravelmemoirs/ViewCityPhotosActivity.java	/^	final Uri sourceUri = MediaStore.Images.Media.EXTERNAL_CONTENT_URI;$/;"	f	class:ViewCityPhotosActivity
+start	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int start=0x7f020022;$/;"	f	class:R.drawable
+startCity	src/com/mpcs/mytravelmemoirs/ViewGoogleMapsActivity.java	/^	private GPS startCity = null;$/;"	f	class:ViewGoogleMapsActivity	file:
+stopUsingGPS	src/com/mpcs/mytravelmemoirs/GPS.java	/^    public void stopUsingGPS(){$/;"	m	class:GPS
+string	gen/com/facebook/android/R.java	/^	public static final class string {$/;"	c	class:R
+string	gen/com/mpcs/mytravelmemoirs/R.java	/^    public static final class string {$/;"	c	class:R
+style	gen/com/facebook/android/R.java	/^	public static final class style {$/;"	c	class:R
+style	gen/com/mpcs/mytravelmemoirs/R.java	/^    public static final class style {$/;"	c	class:R
+styleable	gen/com/facebook/android/R.java	/^	public static final class styleable {$/;"	c	class:R
+styleable	gen/com/mpcs/mytravelmemoirs/R.java	/^    public static final class styleable {$/;"	c	class:R
+text	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int text=0x7f040034;$/;"	f	class:R.id
+text1	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int text1=0x7f040035;$/;"	f	class:R.id
+textView1	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int textView1=0x7f040003;$/;"	f	class:R.id
+textView3	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int textView3=0x7f040019;$/;"	f	class:R.id
+textView4	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int textView4=0x7f04001a;$/;"	f	class:R.id
+textView5	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int textView5=0x7f040018;$/;"	f	class:R.id
+thumb	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int thumb=0x7f040033;$/;"	f	class:R.id
+thumbUri	src/com/mpcs/mytravelmemoirs/ListCurrentTrip.java	/^	final Uri thumbUri = MediaStore.Images.Thumbnails.EXTERNAL_CONTENT_URI;$/;"	f	class:ListCurrentTrip
+thumbUri	src/com/mpcs/mytravelmemoirs/ViewCityPhotosActivity.java	/^	final Uri thumbUri = MediaStore.Images.Thumbnails.EXTERNAL_CONTENT_URI;$/;"	f	class:ViewCityPhotosActivity
+thumb_DATA	src/com/mpcs/mytravelmemoirs/ListCurrentTrip.java	/^	final String thumb_DATA = MediaStore.Images.Thumbnails.DATA;$/;"	f	class:ListCurrentTrip
+thumb_DATA	src/com/mpcs/mytravelmemoirs/ViewCityPhotosActivity.java	/^	final String thumb_DATA = MediaStore.Images.Thumbnails.DATA;$/;"	f	class:ViewCityPhotosActivity
+thumb_IMAGE_ID	src/com/mpcs/mytravelmemoirs/ListCurrentTrip.java	/^	final String thumb_IMAGE_ID = MediaStore.Images.Thumbnails.IMAGE_ID;$/;"	f	class:ListCurrentTrip
+thumb_IMAGE_ID	src/com/mpcs/mytravelmemoirs/ViewCityPhotosActivity.java	/^	final String thumb_IMAGE_ID = MediaStore.Images.Thumbnails.IMAGE_ID;$/;"	f	class:ViewCityPhotosActivity
+title_activity_capture	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int title_activity_capture=0x7f05001f;$/;"	f	class:R.string
+title_activity_capture_image	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int title_activity_capture_image=0x7f050020;$/;"	f	class:R.string
+title_activity_create_trip	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int title_activity_create_trip=0x7f05001c;$/;"	f	class:R.string
+title_activity_list_current_trip	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int title_activity_list_current_trip=0x7f050021;$/;"	f	class:R.string
+title_activity_single_trip	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int title_activity_single_trip=0x7f050023;$/;"	f	class:R.string
+title_activity_trip_info	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int title_activity_trip_info=0x7f05001d;$/;"	f	class:R.string
+title_activity_view_google_maps	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int title_activity_view_google_maps=0x7f050024;$/;"	f	class:R.string
+title_activity_view_old_trips	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int title_activity_view_old_trips=0x7f05001e;$/;"	f	class:R.string
+title_bar_background	gen/com/facebook/android/R.java	/^		public static final int title_bar_background = 0x7f010005;$/;"	f	class:R.attr
+title_bar_background	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int title_bar_background=0x7f010005;$/;"	f	class:R.attr
+title_text	gen/com/facebook/android/R.java	/^		public static final int title_text = 0x7f010003;$/;"	f	class:R.attr
+title_text	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int title_text=0x7f010003;$/;"	f	class:R.attr
+tripDetailsCreate	src/com/mpcs/mytravelmemoirs/DbHelper.java	/^	private static String tripDetailsCreate = "create table TripDetails( id integer primary key autoincrement, startLocationId integer not null, endLocationId integer not null, startDate date not null, endDate date not null);";$/;"	f	class:DbHelper	file:
+tripDetailsCreate	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	private static String tripDetailsCreate = "create table TripDetails(_id integer primary key autoincrement, startLocationId integer not null, endLocationId integer not null, startDate date not null, endDate date not null);";$/;"	f	class:TripDbAdapter	file:
+trip_id	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	public static final String trip_id = "_id";$/;"	f	class:TripDbAdapter
+trip_name	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	public static final String trip_name = "name";$/;"	f	class:TripDbAdapter
+tripinfochk	src/com/mpcs/mytravelmemoirs/MainActivity.java	/^	public static boolean tripinfochk = true;$/;"	f	class:MainActivity
+tripsCreate	src/com/mpcs/mytravelmemoirs/DbHelper.java	/^	private static String tripsCreate = "create table Trips ( id integer primary key autoincrement, name text not null);";$/;"	f	class:DbHelper	file:
+tripsCreate	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	private static String tripsCreate = "create table Trips (_id integer primary key autoincrement, name text not null);";$/;"	f	class:TripDbAdapter	file:
+tripsList	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int tripsList=0x7f04001d;$/;"	f	class:R.id
+trips_row	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int trips_row=0x7f03001b;$/;"	f	class:R.layout
+tv	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int tv=0x7f040009;$/;"	f	class:R.id
+uiHelper	src/com/mpcs/mytravelmemoirs/StartActivity.java	/^	private UiLifecycleHelper uiHelper;$/;"	f	class:StartActivity	file:
+updateCaption	src/com/mpcs/mytravelmemoirs/TripDbAdapter.java	/^	public long updateCaption(String name, String caption){$/;"	m	class:TripDbAdapter
+updateUI	src/com/mpcs/mytravelmemoirs/StartActivity.java	/^	    private void updateUI() {$/;"	m	class:StartActivity	file:
+uri	src/com/mpcs/mytravelmemoirs/ListCurrentTrip.java	/^	final String uri = MediaStore.Images.Media.DATA;$/;"	f	class:ListCurrentTrip
+uri	src/com/mpcs/mytravelmemoirs/ViewCityPhotosActivity.java	/^	final String uri = MediaStore.Images.Media.DATA;$/;"	f	class:ViewCityPhotosActivity
+urlNote	src/com/mpcs/mytravelmemoirs/CaptureImage.java	/^	private static String urlNote;$/;"	f	class:CaptureImage	file:
+user	src/com/mpcs/mytravelmemoirs/StartActivity.java	/^	public GraphUser user;$/;"	f	class:StartActivity
+welcome	gen/com/mpcs/mytravelmemoirs/R.java	/^        public static final int welcome=0x7f040015;$/;"	f	class:R.id
+welcome	src/com/mpcs/mytravelmemoirs/StartActivity.java	/^	TextView welcome;$/;"	f	class:StartActivity

@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/mtmback2"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".NewTripActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+                    android:id="@+id/button2"
+                    android:text="Display Images" 
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round"
+            android:textColor="@android:color/white"
+            android:textSize="26sp" />
+
+        <Button
+                    android:id="@+id/maps"
+        android:text="Google Maps"
+
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="26sp"
+            android:background="@drawable/round"
+            android:textColor="@android:color/white" />
+
+        <Button
+                                android:id="@+id/button3"
+        android:text="Display Notes"
+
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round"
+
+            android:textSize="26sp"
+            android:textColor="@android:color/white" />
+
+        <Button
+                    android:id="@+id/button1"
+        android:text="Upload Photos"
+
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round"
+            android:textSize="26sp"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mtmback2"
+    tools:context=".CreateTripActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+		android:layout_width="250sp"
+        android:layout_height="50sp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="50sp"
+        android:layout_marginTop="34sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="       Enter Trip Name"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/captureImage"
+        android:layout_width="250sp"
+        android:layout_height="50sp"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="102dp"
+        android:background="@drawable/round"
+        android:text="START TRIP"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+		android:layout_width="250sp"
+        android:layout_height="50sp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25sp"
+        android:layout_marginTop="34sp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>
